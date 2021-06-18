@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Currency Rate Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="https://www.bb.org.bd/econdata/exchangerate.php"><img src="Taka.jpg" alt="" class="money-img" /></a>
+    
+    <h1>Currency Rate Calculator</h1>
+
+    <p>Choose the currency and the amounts to get the exchange rate</p>
+    
+
+    <div class="container">
+      <div class="currency">
+        <input type="number" id="amount-one" placeholder="0" value="1" />
+        <select id="currency-one">
+        <option value="USD" selected>United States dollar</option>
+        <option value="GBP">British pound</option>
+        <option value="RUB">Russian ruble</option>
+        <option value="PKR">Pakistani rupee</option>
+        <option value="MYR">Malaysian ringgit</option>
+        <option value="KRW">South Korean won</option>
+        <option value="JPY">Japanese yen</option>
+        <option value="INR">Indian rupee</option>
+        <option value="CNY">Chinese yuan</option>
+        <option value="BDT">Bangladeshi taka</option>
+        <option value="AUD">Australian dollar</option>
+        <option value="SGD">Singapore dollar</option>
+        <option value="AED">United Arab Emirates dirham</option>
+        </select>
+        
+      </div>
+
+    
+
+      <div class="currency">
+        <input type="number" id="amount-two" placeholder="0" />
+        <select id="currency-two">
+          
+        <option value="BDT" selected>Bangladeshi taka</option>
+        <option value="USD">United States dollar</option>
+        <option value="GBP">British pound</option>
+        <option value="RUB">Russian ruble</option>
+        <option value="PKR">Pakistani rupee</option>
+        <option value="MYR">Malaysian ringgit</option>
+        <option value="KRW">South Korean won</option>
+        <option value="JPY">Japanese yen</option>
+        <option value="INR">Indian rupee</option>
+        <option value="CNY">Chinese yuan</option>
+        <option value="AUD">Australian dollar</option>
+        <option value="SGD">Singapore dollar</option>
+        <option value="AED">United Arab Emirates dirham</option>
+        </select>
+      </div>
+    </div>
+
+    <br>
+     <div class="rate" id="rate"></div>
+     <br>
+     <h2>
+       <span style="color: #2F4F4F">Cerated By Sagor mollick</span>
+     </h2>
+     <script src="script.js"></script>
+  </body>
+</html>
